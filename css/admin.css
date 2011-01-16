@@ -1,0 +1,40 @@
+h1{
+    font:18px verdana;
+    font-weight:normal;
+    margin:5px;
+}
+.type1{
+    color:#0D9900;
+}
+.type2{
+    color:#900;
+}
+.unknow{
+    color:#CCC;
+}
+button.delete{
+    background-image:url(../images/delete.gif);
+}
+button.xls{
+    background-image:url(../images/xls.png);
+}
+button.logout{
+    background-image:url(../images/logout.png);
+}
+.x-growl-notice{
+    background-image: url(../images/notice.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+.x-growl-error{
+    background-image: url(../images/error.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+#tp1_img_dv,#tp2_img_dv{
+    text-align:center;
+}
+.content{
+	padding-left:70px;
+	color:#AAA;
+}

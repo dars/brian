@@ -1,0 +1,105 @@
+body{
+	font-size: 100%;
+	background:#232220;
+	/* color:#EFEFEF; */
+	font-family: "Arial,Verdana";
+}
+a{
+	text-decoration:none;
+}
+header h1{
+	display:none;
+}
+header img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+.left{
+	text-align:left;
+}
+td,th{
+	font-weight: normal;
+	background:#CDC8B5;
+	color:#666;
+	text-align:left;
+	padding:3px;
+	border:1px #CCC solid;
+	font-size:1em;
+}
+th{
+	background:#9A947A;
+	text-align:right;
+	color:#000;
+	padding-right:5px;
+	min-width: 100px;
+}
+th.head{
+	text-align:center;
+	background:#645928;
+	color:#EEE;
+}
+td.case_name{
+	background:#737061;
+	color:#FFF;
+}
+td.actions{
+	text-align:center;
+}
+td.actions button{
+	width:80px;
+	background:#474550;
+	color:#FFF;
+	height:22px;
+	border:1px #FFF solid;
+}
+td.actions button[type="reset"]{
+	background:#737061;
+	width:50px;
+}
+.remark{
+	font-size: 0.8em;
+	color:#999;
+	margin-left:5px;
+}
+input[type="text"],input[type="number"],input[type="month"],input[type="tel"],input[type="email"],textarea{
+	padding-left:3px;
+	padding-right:3px;
+	background:#F0EDE3;
+	border:1px #9A947A solid;
+}
+input[type="text"],input[type="number"],input[type="month"],input[type="tel"],input[type="email"]{
+	margin-right:3px;
+	height:20px;
+}
+input[type="number"],input[type="month"]{
+	width:50px;
+}
+#time{
+	width:80px;
+}
+textarea{
+	padding:3px;
+	width:600px;
+	height:150px;
+}
+.combobox-item{
+	color:#000;
+}
+.combobox-item-hover{
+	background:#CDC8B5;
+}
+.validatebox-tip-content{
+	color:#666;
+}
+.star{
+	color:#F00;
+	margin-right:3px;
+}
+input.validatebox-invalid{
+	background:url("themes/default/images/validatebox_warning.png") no-repeat scroll right 1px #FFFFEE;
+}
