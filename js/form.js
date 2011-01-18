@@ -157,6 +157,7 @@ pgrid.on('rowclick',function(grid,rowIndex,event){
 	form.getForm().loadRecord(record);
 	form.getForm().findField('img').setValue('');
 	form.getForm().findField('url').setValue('http://www.number-media.com.tw/brian/index.php?id='+record.data.id);
+	Ext.get('head_img').dom.src = Ext.BLANK_IMAGE_URL;
 	if(record.data.img){
 		Ext.get('head_img').dom.src = loader.src;
 		tmp=new Image();
